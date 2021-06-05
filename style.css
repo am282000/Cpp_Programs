@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Monstserrat',sans-serif;
+}
+
+
+.site-header{
+	width: 100%;
+	height: 50%;
+	background: #00000;
+	background: linear-gradient(57deg,#00C6A7,#1E4D92);
+	clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+
+nav{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	display: flex;
+	color: white;
+}
+
+.logo{
+	width: 50%;
+	height: 100px;
+}
+
+.menu{
+	line-height: 100px;
+	padding left: 50px;
+	width: 50%;
+	height: 100px;
+}
+
+
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height:100%;
+	justify-content: space-around;
+}
+
+.menu ul li{
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.logo h1{
+	padding-right: 30px;
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+
+section { display: flex; }
+
+.leftside{
+	width:45%; height :auto; overflow: hidden;
+	margin-top: 20px;margin: 20px;
+}
+
+.leftside img{
+	width: 500px;
+	height: 400px;
+}
+
+.rightside{
+	width: 55%;
+	height: 300px;
+	color: red;
+	text-align: center;;
+	margin-top: 80px;
+	padding: 50px;
+}
+
+
+.rightside h1{
+	text-align: left;
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: lowercase;
+}
+
+.rightside p{
+	background-color: yellow;
+}
+
+
+.rightside button{
+	font-size: 18px;
+	background:linear-gradient(55deg,red,yellow);
+	border-radius: 40px 40px 40px 40px;
+	padding: 20px 40px;
+}
+
+.rightside button:hover{
+	background:linear-gradient(60deg,white,black);
+	text-transform: uppercase;
+	
+}
